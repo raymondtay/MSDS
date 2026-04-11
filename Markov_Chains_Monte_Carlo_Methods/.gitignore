@@ -1,0 +1,33 @@
+.scala-build/
+.bsp/
+
+# Scala / sbt build artifacts
+*.class
+*.tasty
+*.bin
+*.scala_analysis.bin
+*.bsp/
+*.bloop/
+*.scala_worksheet/
+*.classpath
+*.run
+*.sav
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+ target/
+ project/
+ build/
+ bin/
+
+# Other
+*.log
